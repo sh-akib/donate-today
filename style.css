@@ -51,10 +51,27 @@ h1 {
 
     padding-left: 20px;
 }
-
+.dolar{
+    text-align: center;
+    height: 100px;
+    width: 80px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 5px gray;
+}
+#bold{
+    background-color:antiquewhite;
+    box-shadow:2px 2px 2px rgb(235, 11, 11);
+    
+}
+#bold h2{
+    color: red;
+}
 .flexible-container {
     display: flex;
-    margin: 100px;
+    margin: 40px 180px;
+
 }
 
 .plan-items h3 {
@@ -99,4 +116,14 @@ h1 {
 }
 .color{
     background-color: red;
+}
+.humble{
+    text-align: center;
+    background-color:powderblue;
+    padding: 10px;
+    margin-top: 50px;
+}
+.humble h1{
+    color:red;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
